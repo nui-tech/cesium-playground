@@ -1,0 +1,100 @@
+<mxfile host="65bd71144e">
+    <diagram id="aXnXgDEyRUW1l72tzzMP" name="Page-1">
+        <mxGraphModel dx="774" dy="388" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="Feature" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="44" width="87" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=20;strokeColor=#7e7c7c;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="223.55" y="368" as="sourcePoint"/>
+                        <mxPoint x="223.55" y="96" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=20;strokeColor=#7e7c7c;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="593" y="229" as="sourcePoint"/>
+                        <mxPoint x="42" y="229" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="60" y="264" width="523.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Cesium / Mapbox" style="whiteSpace=wrap;html=1;" parent="13" vertex="1">
+                    <mxGeometry x="403.5" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="3d Terrain exploring" style="whiteSpace=wrap;html=1;fontSize=12;" parent="13" vertex="1">
+                    <mxGeometry width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="shape=cross;whiteSpace=wrap;html=1;fontSize=12;" parent="13" vertex="1">
+                    <mxGeometry x="350" y="15" width="25" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Three.js" style="whiteSpace=wrap;html=1;fontSize=12;" parent="13" vertex="1">
+                    <mxGeometry x="208" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="group" parent="1" vertex="1" connectable="0">
+                    <mxGeometry x="60" y="133" width="328" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="3d modal interactive sotry" style="whiteSpace=wrap;html=1;fontSize=12;" parent="14" vertex="1">
+                    <mxGeometry width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Three.js" style="whiteSpace=wrap;html=1;fontSize=12;" parent="14" vertex="1">
+                    <mxGeometry x="208" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Tech stack" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
+                    <mxGeometry x="369" y="53" width="112" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Optimisation techniques" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="377" width="231" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontSize=20;strokeColor=#7e7c7c;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="424" y="786" as="sourcePoint"/>
+                        <mxPoint x="423.99999999999994" y="327" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="&lt;ul&gt;&lt;li&gt;Image optimising&amp;nbsp;&lt;/li&gt;&lt;li&gt;Render ondemand&lt;/li&gt;&lt;li&gt;Level of detail&lt;/li&gt;&lt;li&gt;Texture Tiling&lt;/li&gt;&lt;li&gt;GLTF Compression (Draco)&lt;/li&gt;&lt;li&gt;Mesh Optimizer&lt;/li&gt;&lt;li&gt;Play around Three.js properties&lt;/li&gt;&lt;li&gt;Multithreading&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;horizontal=1;" parent="1" vertex="1">
+                    <mxGeometry x="223" y="405" width="179" height="207" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="&lt;ul&gt;&lt;li&gt;3D Tiles&lt;/li&gt;&lt;li&gt;Draco&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="436" y="405" width="176" height="183" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;h1&gt;Heaviness Factors&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Polygons&lt;/li&gt;&lt;li&gt;Materials&lt;/li&gt;&lt;li&gt;Textures&lt;/li&gt;&lt;li&gt;Animations&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;h1&gt;Performace / Quality&lt;/h1&gt;&lt;div&gt;Decide what your project success by identify project priorties.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;h1&gt;Performace Metrics&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;Merory&lt;/li&gt;&lt;li&gt;Drawcalls&lt;/li&gt;&lt;li&gt;Framerate&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Example tools:&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;stats.js, task managers&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="724" y="55" width="269" height="639" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="&lt;h1&gt;Draw Calls&lt;/h1&gt;&lt;p&gt;Representation of objects that GPU has to render every frame&lt;/p&gt;&lt;p&gt;- Object x1&lt;/p&gt;&lt;p&gt;- Shadow x1&lt;/p&gt;&lt;p&gt;- Transparent&amp;nbsp; x2&lt;/p&gt;&lt;p&gt;- Bloom x2&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Reduce draw call by merging objects but might lose performace gain of view frustum calling&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="1056" y="58" width="190" height="301" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Materials&lt;/span&gt;&lt;/h1&gt;&lt;h1&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;Basic - bake light , more heavy&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Physical&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;Transparent - heavy&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;UV - UV1, UV2&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="724" y="462" width="190" height="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="&lt;h1&gt;UV&lt;/h1&gt;&lt;p&gt;UV1 -&amp;nbsp;&lt;/p&gt;&lt;p&gt;UV2 (AO &amp;amp; Lightmap)&lt;/p&gt;&lt;p&gt;Two set of UV is useful for tiling&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="1059" y="369" width="190" height="219" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;h1&gt;Texture&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Palletes&lt;/li&gt;&lt;li&gt;ORM&lt;/li&gt;&lt;li&gt;Environment&lt;/li&gt;&lt;li&gt;Compression&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Power 2, 1K and avoid texture bigger than 2K and split it if it too big&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="1059" y="523" width="190" height="256" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="&lt;h1&gt;Shawdows&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Dynamic&lt;/li&gt;&lt;li&gt;Fake&lt;/li&gt;&lt;li&gt;Static&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="1061" y="754" width="190" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#2D9C5E;shape=mxgraph.gcp2.check" vertex="1" parent="1">
+                    <mxGeometry x="527.25" y="428" width="13.75" height="11" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#2D9C5E;shape=mxgraph.gcp2.check" vertex="1" parent="1">
+                    <mxGeometry x="363" y="428" width="13.75" height="11" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#2D9C5E;shape=mxgraph.gcp2.check" vertex="1" parent="1">
+                    <mxGeometry x="369" y="448" width="13.75" height="11" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#2D9C5E;shape=mxgraph.gcp2.check" vertex="1" parent="1">
+                    <mxGeometry x="374.25" y="510" width="13.75" height="11" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;align=center;verticalAlign=top;fillColor=#2D9C5E;shape=mxgraph.gcp2.check" vertex="1" parent="1">
+                    <mxGeometry x="527.25" y="448" width="13.75" height="11" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
